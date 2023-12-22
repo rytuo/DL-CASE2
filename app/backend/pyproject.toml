@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["Danis <bzakks21@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+pydantic-settings = "^2.1.0"
+pillow = "^10.1.0"
+python-multipart = "^0.0.6"
+pymilvus = "^2.3.3"
+sentence_transformers = "^2.2.2"
+pandas = "^2.1.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
